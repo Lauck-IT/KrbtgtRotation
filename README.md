@@ -1,3 +1,14 @@
+# Rotate KrbTGT Account password
+
+This scripts helps you to rotate your AD krbtgt account password. 
+
+The scripts requite english windows server os with english powershell. The scripts with -de in the name are tweaked for german windows server os. 
+Normaly you run this scripts interactive. 
+The scripts containing automated in the name are intended to be used with a windows scheduled task to automate the krbtgt rotation. We recommend to run these scripts every 30 Days. 
+
+# Disclaimer
+do not run the scripts two times without enough time left between each run. This will break your kerberos.
+
 
 # Contributing
 
